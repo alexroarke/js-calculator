@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+body {
+  background: yellow;
+  height: 90vh;
+}
+
+.container {
+  margin-top: 10em;
+  text-align: center;
+}
+
+#border {
+  background: white;
+  display: inline-block;
+  border-radius: 25px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+input#display {
+  display: inline;
+  border: 0;
+  background: rgb(230, 228, 228);
+  margin: 20px;
+  padding: 25px;
+  text-align: right;
+}
+
+/* button {
+  font-size: 10px;
+  background: orangered;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 20px;
+  width:100%;
+
+} */
+
+#num-values button {
+  background: blue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 20px;
+  min-width: 100%;
+}
+
+.number-btn, .operator-btn {
+}
+td {
+  margin-right: 50px;
+}
