@@ -18,43 +18,29 @@ body {
 #border {
   background: white;
   display: inline-block;
-  border-radius: 25px;
+  border-radius: 10px;
   margin-top: 30px;
   padding: 10px;
 }
 
 input#display {
-  display: inline;
+  display: inline-block;
   border: 0;
   background: rgb(230, 228, 228);
-  margin: 20px;
-  padding: 25px;
-  text-align: right;
-}
-
-/* button {
-  font-size: 10px;
-  background: orangered;
-  color: white;
-  border: 0;
-  cursor: pointer;
-  border-radius: 50%;
-  padding: 20px;
-  width:100%;
-
-} */
+  margin-bottom: 10px;
+  padding: 15px;
+} 
 
 #num-values button {
+  font-size: 24px;
   background: blue;
   color: white;
-  border-radius: 10px;
+  border-radius: 50px;
   cursor: pointer;
-  padding: 20px;
-  min-width: 100%;
 }
 
-.number-btn, .operator-btn {
-}
-td {
-  margin-right: 50px;
+button {
+  height: 50px;
+  width: 50px;
+  margin: 0 5px 5px 0;
 }
