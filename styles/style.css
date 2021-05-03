@@ -6,7 +6,7 @@
 
 }
 body {
-  background: yellow;
+  background: #272121;
   height: 90vh;
 }
 
@@ -29,11 +29,14 @@ input#display {
   background: rgb(230, 228, 228);
   margin-bottom: 10px;
   padding: 15px;
+  text-align: right;
+  font-size: 28px;
+  width: 200px;
 } 
 
 #num-values button {
   font-size: 24px;
-  background: blue;
+  background: red;
   color: white;
   border-radius: 50px;
   cursor: pointer;
@@ -44,3 +47,4 @@ button {
   width: 50px;
   margin: 0 5px 5px 0;
 }
+
